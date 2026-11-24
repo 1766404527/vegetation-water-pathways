@@ -162,3 +162,5 @@ preprocessed data. Figure 2 uses the same effect-decomposition layout as
 Figure 11: four direct effects and five complete indirect effects, including
 the separate VPD->ET->VOD and serial VPD->ET->SM->VOD pathways. Dashed shafts
 end in complete, solid arrowheads, matching the direct-effect arrows.
+
+This repository provides the Python code associated with the study. Input datasets and precomputed results are not included. Users need to obtain the required datasets and configure the input paths before running the scripts.
