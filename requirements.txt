@@ -1,0 +1,23 @@
+# Python environment for
+# "Spatial heterogeneity and pathway mechanisms of dominant drivers of
+#  global vegetation water stress"
+#
+# Tested with Python 3.12.2 on Windows.
+# Install with:   pip install -r requirements.txt
+#
+# Note: Cartopy depends on the GEOS and PROJ C libraries. If `pip install`
+# of Cartopy fails to build, install it from conda-forge instead:
+#   conda install -c conda-forge cartopy==0.24.1
+# and then `pip install -r requirements.txt` for the remaining packages.
+
+numpy==2.2.6
+pandas==2.3.1
+scipy==1.15.2
+xarray==2025.1.2
+netCDF4==1.7.2
+scikit-learn==1.6.1
+matplotlib==3.10.1
+Cartopy==0.24.1
+pymannkendall==1.4.3
+h5py==3.14.0
+joblib==1.4.2
